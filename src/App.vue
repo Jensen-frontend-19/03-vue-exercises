@@ -1,16 +1,18 @@
 <template>
     <div id="app">
         <ChooseDelivery />
+        <LimitedInput />
     </div>
 </template>
 
 <script>
 import ChooseDelivery from './components/ChooseDelivery.vue'
+import LimitedInput from './components/LimitedInput.vue'
 
 export default {
     name: 'App',
     components: {
-        ChooseDelivery
+        ChooseDelivery, LimitedInput
     }
 }
 </script>
