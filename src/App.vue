@@ -2,17 +2,19 @@
     <div id="app">
         <ChooseDelivery />
         <LimitedInput />
+        <SearchView />
     </div>
 </template>
 
 <script>
 import ChooseDelivery from './components/ChooseDelivery.vue'
 import LimitedInput from './components/LimitedInput.vue'
+import SearchView from './components/search/SearchView.vue'
 
 export default {
     name: 'App',
     components: {
-        ChooseDelivery, LimitedInput
+        ChooseDelivery, LimitedInput, SearchView
     }
 }
 </script>
